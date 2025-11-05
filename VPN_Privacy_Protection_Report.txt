@@ -1,0 +1,109 @@
+# Task 8 – VPN Privacy Protection 🔐
+
+## 🧭 Objective
+To understand the role of **Virtual Private Networks (VPNs)** in protecting user privacy, encrypting online traffic, and ensuring secure communication over the internet.
+
+---
+
+## 🧰 Tools Used
+- **ProtonVPN (Free Plan)**  
+- **WhatIsMyIPAddress.com** – to verify IP address changes  
+- **Windows 10** operating system
+
+---
+
+## ⚙️ Steps Performed
+
+### Step 1 – Choose a VPN Service
+- Selected **ProtonVPN (Free Tier)** for testing.
+- Created a free account using a verified email ID.
+
+### Step 2 – Install and Launch VPN Client
+- Downloaded the official ProtonVPN client from [https://protonvpn.com](https://protonvpn.com).  
+- Installed and launched the application on Windows 10.
+
+### Step 3 – Connect to a VPN Server
+- Logged in using free account credentials.  
+- Chose a free VPN server located in **Netherlands**.  
+- Clicked **Connect** and waited for the tunnel to establish.
+
+### Step 4 – Verify IP Address
+- Visited [https://whatismyipaddress.com](https://whatismyipaddress.com).  
+- Noted the **IP address before and after connection**.
+
+| State | IP Address | Location |
+|--------|-------------|-----------|
+| Before VPN | 49.xxx.xx.xx | India |
+| After VPN | 185.xxx.xx.xx | Netherlands |
+
+✅ IP successfully changed, confirming traffic routing through the VPN server.
+
+### Step 5 – Test Encrypted Browsing
+- Opened several websites (YouTube, Wikipedia, ProtonMail).  
+- Confirmed that all traffic was encrypted using **OpenVPN protocol (AES-256 encryption)**.
+
+### Step 6 – Disconnect and Compare
+- Disconnected VPN and rechecked the IP → reverted back to original (India).  
+- Observed a slight reduction in browsing speed (~10–15%).
+
+---
+
+## 📊 Observations
+
+| Parameter | Without VPN | With VPN |
+|------------|--------------|-----------|
+| IP Location | India | Netherlands |
+| Encryption | None | AES-256 Encrypted |
+| Browsing Speed | Normal | Slightly Slower |
+| Privacy Protection | Low | High |
+
+---
+
+## 🔐 Benefits of Using a VPN
+1. **Hides Real IP Address** – Masks your true location and identity online.  
+2. **Encrypts Internet Traffic** – Prevents ISPs and hackers from reading your data.  
+3. **Enhances Security on Public Wi-Fi** – Protects from man-in-the-middle attacks.  
+4. **Bypasses Geo-Restrictions** – Access region-locked content.  
+5. **Prevents ISP Tracking** – Stops tracking of browsing habits and metadata.
+
+---
+
+## ⚠️ Limitations of VPNs
+- **Slower Connection Speed** due to encryption overhead.  
+- **Limited Server Options** in free plans.  
+- **No Absolute Anonymity** – VPN providers may log metadata.  
+- **Blocked by Some Websites** (e.g., streaming services).  
+- **Trust Factor** – Depends on the VPN provider’s privacy policy.
+
+---
+
+## 🧩 Research Summary: How VPNs Work
+- VPNs create a **secure, encrypted tunnel** between your device and the internet.  
+- Data packets are encrypted using protocols like **OpenVPN**, **WireGuard**, or **IKEv2**.  
+- Your ISP and attackers cannot see your actual online activity or destination websites.  
+
+**Encryption Example:**  
+AES-256-bit encryption → takes billions of years to brute-force.  
+
+---
+
+## 🧠 Key Concepts
+- **VPN (Virtual Private Network)**  
+- **Encryption & Tunneling**  
+- **Privacy Protection**  
+- **Network Security**
+
+---
+
+## 🏁 Outcome
+- Successfully established a VPN connection.  
+- Verified IP masking and encryption.  
+- Understood VPN functionality, encryption protocols, and privacy benefits.  
+- Learned practical use of VPNs for privacy, security, and safe browsing.
+
+---
+
+## 📸 Screenshot References
+1. Screenshot_1.png – VPN Connected (ProtonVPN interface)  
+2. Screenshot_2.png – IP change verification on whatismyipaddress.com  
+3. Screenshot_3.png – VPN disconnected (IP reverted)
